@@ -3,6 +3,7 @@
 local iron2 = {
 	name = "iron2",
 	type = "recipe",
+	enabled = false,
 	ingredients = {
 	--{type = "item", name = "iron-plate", amount = 5},
 	},
