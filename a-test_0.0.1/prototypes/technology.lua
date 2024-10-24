@@ -21,5 +21,5 @@ local tech_name = {
 }
 
 data:extend({
-    tech-name
+    tech_name
 })
