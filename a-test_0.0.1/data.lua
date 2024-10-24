@@ -1,3 +1,3 @@
-require("prototypes.item")
-require("prototypes.recipe")
-require("prototypes.technology")
+require("prototype.item")
+require("prototype.recipe")
+require("prototype.technology")
