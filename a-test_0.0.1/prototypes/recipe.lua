@@ -5,7 +5,7 @@ local iron2 = {
 	type = "recipe",
 	enabled = false,
 	ingredients = {
-	--{type = "item", name = "iron-plate", amount = 5},
+	{type = "item", name = "iron-plate", amount = 5},
 	},
 	results = {
 	{type = "item", name = "iron-stick", amount = 1}
