@@ -15,7 +15,7 @@ local tech_name = {
   --{"utility-science-pack", 1},
   --{"space-science-pack", 1}
   },
-  time = 60
+  time = 1
   },
   effects = {{type = "unlock-recipe", recipe = "iron2"}},
   }

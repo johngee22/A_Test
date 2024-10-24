@@ -1,0 +1,15 @@
+# en_us.cfg
+# United States English
+
+[mod-name]
+a-test=This is the words people will see to activate your mod
+[mod-description]
+a-test=testing stuff out
+[item-name]
+iron2= its a item deal with it
+[item-description]
+iron2=why did you look here
+[recipe-name]
+iron2=i do see a pattern
+[technology-name]
+iron2=but im still lost
