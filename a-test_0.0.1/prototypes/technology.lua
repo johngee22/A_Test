@@ -1,7 +1,7 @@
 --technology.lua
 
 local tech_name = {
-	name = "tech-name",
+	name = "tech_name",
 	type = "technology",
 	unit =
     {
