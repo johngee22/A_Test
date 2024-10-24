@@ -7,7 +7,7 @@ local iron2 = {
 		{name = "iron-plate", amount = 5},
 	},
 	result = {
-        {"item", name = "iron2", amount = 1}
+        { name = "iron2", amount = 1}
     },
     energy_required = 1,
     localised_description = "i dont know how but its more iron",
