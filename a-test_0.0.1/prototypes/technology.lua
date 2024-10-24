@@ -17,7 +17,7 @@ local tech_name = {
   },
   time = 60
   },
-  --effects = {type = "unlock-recipe", recipe = "recipe-name"},
+  effects = {{type = "unlock-recipe", recipe = "iron2"}},
   }
   
   data:extend({
