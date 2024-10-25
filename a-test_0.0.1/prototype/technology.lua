@@ -1,25 +1,49 @@
 --technology.lua
 
-local tech_name = {
-  name = "tech_name",
+local wizzy = {
+  name = "wizzy",
   type = "technology",
-  icon = "__base__/graphics/technology/steel-processing.png",
+  icon = "__a-test__/graphic/icon/wizzy.png",
   icon_size = 256,
+  prerequisites = {"automation-science-pack"},
   unit = {
-  count = 1,
+  count = 5,
   ingredients = {
-  --{"automation-science-pack", 1},
+  {"automation-science-pack", 1},
   --{"logistic-science-pack", 1},
   --{"chemical-science-pack", 1},
   --{"production-science-pack", 1},
   --{"utility-science-pack", 1},
   --{"space-science-pack", 1}
   },
-  time = 1
+  time = 10
   },
-  effects = {{type = "unlock-recipe", recipe = "iron2"}},
+  effects = {{type = "unlock-recipe", recipe = "wizzy"}},
   }
   
-  data:extend({
-  tech_name
-  })
+
+local redWizzy = {
+  name = "redWizzy",
+  type = "technology",
+  icon = "__a-test__/graphic/icon/redWizzy.png",
+  icon_size = 256,
+  prerequisites = {"wizzy"},
+  unit = {
+  count = 10,
+  ingredients = {
+  {"automation-science-pack", 1},
+  --{"logistic-science-pack", 1},
+  --{"chemical-science-pack", 1},
+  --{"production-science-pack", 1},
+  --{"utility-science-pack", 1},
+  --{"space-science-pack", 1}
+  },
+  time = 10
+  },
+  effects = {{type = "unlock-recipe", recipe = "redWizzy"}},
+  }
+
+data:extend({
+wizzy,
+redWizzy,
+})
