@@ -6,6 +6,7 @@ local wizzy = {
 	type = "item",
 	icon = "__a-test__/graphic/icon/wizzy.png",
 	icon_size = 64,
+	place_result = "wizzy"
 }
 
 local redWizzy = {

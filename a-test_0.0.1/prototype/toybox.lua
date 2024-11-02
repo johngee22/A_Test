@@ -37,35 +37,35 @@ toyboxEntity.picture =
     {
     filename = "__a-test__/graphic/icon/wizzy.png",
     priority = "extra-high",
-    width = 34,
-    height = 42,
+    width = 64,
+    height = 64,
     shift = util.by_pixel(0, -3),
     hr_version =
     {
     filename = "__a-test__/graphic/icon/wizzy.png",
     priority = "extra-high",
-    width = 68,
-    height = 84,
+    width = 64,
+    height = 64,
     shift = util.by_pixel(0, -3),
-    scale = 0.5
+    scale = 1
     }
     },
     {
     filename = "__a-test__/graphic/icon/wizzy.png",
     priority = "extra-high",
-    width = 58,
-    height = 24,
+    width = 64,
+    height = 64,
     shift = util.by_pixel(12, 6),
     draw_as_shadow = true,
     hr_version =
     {
     filename = "__a-test__/graphic/icon/wizzy.png",
     priority = "extra-high",
-    width = 116,
-    height = 48,
+    width = 64,
+    height = 64,
     shift = util.by_pixel(12, 6),
     draw_as_shadow = true,
-    scale = 0.5
+    scale = 1
     }
     }
     }
