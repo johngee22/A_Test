@@ -7,6 +7,21 @@
 -- The following two lines both sem to work correctly
 local toyboxEntity = util.table.deepcopy(data.raw["logistic-container"]["storage-chest"])
 --local toyboxEntity = util.table.deepcopy(data.raw["logistic-container"]["passive-provider-chest"])
+
+-- local getResistAllDamageTypes = function (
+--     return
+--     {
+--     {type = "damage-type", name = "physical"},
+--     {type = "damage-type", name = "impact"},
+--     {type = "damage-type", name = "poison"},
+--     {type = "damage-type", name = "explosion"},
+--     {type = "damage-type", name = "fire"},
+--     {type = "damage-type", name = "laser"},
+--     {type = "damage-type", name = "acid"},
+--     {type = "damage-type", name = "electric"}
+--     })
+-- end
+
 toyboxEntity.type = "infinity-container"
 toyboxEntity.name = "wizzy"
 toyboxEntity.icon = "__a-test__/graphic/icon/wizzy.png"
@@ -58,7 +73,9 @@ toyboxEntity.picture =
 toyboxEntity.logistic_mode = "passive-provider" -- Valid values are "passive-provider", "active-provider", "storage", "buffer" and "requester", nil(without quotes)
 toyboxEntity.render_not_in_network_icon = false
 toyboxEntity.minable = {mining_time = 0.1, result = "wizzy"}
-toyboxEntity.resistances = mod_utils.getResistAllDamageTypes()
+--toyboxEntity.resistances = getResistAllDamageTypes()
+
+data:extend({toyboxEntity,})
 
 
 
